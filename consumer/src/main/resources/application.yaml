@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: 43.138.44.237
+    port: 5672
+    username: admin
+    password: 228888
+    virtual-host: /
+    listener:
+      type: direct
+      direct:
+#        设置手动签收
+        acknowledge-mode: manual
+        default-requeue-rejected: false
+        prefetch: 10
