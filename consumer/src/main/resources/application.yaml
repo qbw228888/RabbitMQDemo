@@ -1,9 +1,9 @@
 spring:
   rabbitmq:
-    host: 43.138.44.237
-    port: 5672
-    username: admin
-    password: 228888
+    host: 
+    port: 
+    username: 
+    password: 
     virtual-host: /
     listener:
       type: direct
