@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: 43.138.44.237
+    port: 5672
+    username: admin
+    password: 228888
+    virtual-host: /
+#    开启confirm确认模式
+    publisher-confirm-type: correlated
+    #    开启return回退模式
+    publisher-returns: true
